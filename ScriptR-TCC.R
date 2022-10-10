@@ -1,4 +1,4 @@
-#VERSÃƒO 1 - TCC 
+#versao final#
 
 ####################
 #PACOTES UTILIZADOS#
@@ -855,7 +855,7 @@ legend('topleft',
 #PIB
 plot(PIB_TS_DIFF, xlab = "Ano", ylab = "índice",  main = "PIB",las = 1, 
      xlim = c(2019,2022), ylim = c(-4, 7), xaxs = "i", yaxs = "i",
-     cex.axis=1, bty='l',col='darkblue',lty=1)+grid(col='darkgrey',
+     cex.axis=1, bty='l',col='darkblue',lty=1, lwd= 2)+grid(col='darkgrey',
                                                     lwd=2)+
   points(PIB_TS_DIFF, 
          pch = 23,
@@ -899,7 +899,7 @@ legend('topleft',
 
 plot(rend_med_TS_DIFF, xlab = "Ano", ylab = "índice",  main = "Rendimento Médio",las = 1, 
      xlim = c(2019,2022), ylim = c(-30, 35), xaxs = "i", yaxs = "i",
-     cex.axis=1, bty='l',col='darkblue',lty=1)+grid(col='darkgrey',
+     cex.axis=1, bty='l',col='darkblue',lty=1, lwd = 2)+grid(col='darkgrey',
                                                     lwd=2)+
   points(rend_med_TS_DIFF, 
          pch = 23,
@@ -915,7 +915,7 @@ legend('topleft',
 
 plot(tx_desoc_TS_DIFF, xlab = "Ano", ylab = "índice",  main = "Taxa Desocupação",las = 1, 
      xlim = c(2019,2022), ylim = c(-2, 2), xaxs = "i", yaxs = "i",
-     cex.axis=1, bty='l',col='darkblue',lty=1)+grid(col='darkgrey',
+     cex.axis=1, bty='l',col='darkblue',lty=1, lwd = 2)+grid(col='darkgrey',
                                                     lwd=2)+
   points(tx_desoc_TS_DIFF, 
          pch = 23,
@@ -953,3 +953,6 @@ legend('topleft',
        c('IPCA', 'IGPM'),
        col=c('darkblue', 'darkred'), lty=1:2,
        bty='n')
+
+
+#FIM#
